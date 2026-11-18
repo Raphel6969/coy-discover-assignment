@@ -45,20 +45,27 @@ export default function SwipeCard({ profile, onSwipe, isFront }) {
       {/* Dynamic Stamp Overlays */}
       {isFront && (
         <>
-          {/* LIKE STAMP (VIBRANT NEON GREEN) */}
+          {/* LIKE STAMP (VIBRANT NEON GREEN WITH PLAIN FLAT HEART) */}
           <motion.div
             style={{ opacity: likeOpacity, scale: likeScale }}
-            className="absolute top-8 left-6 z-30 pointer-events-none transform -rotate-12 border-[3.5px] border-[#00e676] bg-[#00e676]/15 text-[#00c853] font-heading font-extrabold text-3xl px-4 py-1.5 rounded-xl shadow-hard tracking-wide"
+            className="absolute top-8 left-6 z-30 pointer-events-none transform -rotate-12 border-4 border-[#00e676] bg-[#00e676]/20 text-[#00e676] font-heading font-extrabold text-3xl px-4 py-1.5 rounded-2xl shadow-hard tracking-wide flex items-center gap-2.5"
           >
-            LIKE 💚
+            <span>LIKE</span>
+            <svg viewBox="0 0 24 24" className="w-7 h-7 fill-[#00e676] stroke-none shrink-0">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
           </motion.div>
 
-          {/* PASS STAMP (VIBRANT ELECTRIC CRIMSON) */}
+          {/* PASS STAMP (DEEP RED WITH BOLD CROSS) */}
           <motion.div
             style={{ opacity: nopeOpacity, scale: nopeScale }}
-            className="absolute top-8 right-6 z-30 pointer-events-none transform rotate-12 border-[3.5px] border-[#ff2d55] bg-[#ff2d55]/15 text-[#ff2d55] font-heading font-extrabold text-3xl px-4 py-1.5 rounded-xl shadow-hard tracking-wide"
+            className="absolute top-8 right-6 z-30 pointer-events-none transform rotate-12 border-4 border-[#c8102e] bg-[#c8102e]/20 text-[#c8102e] font-heading font-extrabold text-3xl px-4 py-1.5 rounded-2xl shadow-hard tracking-wide flex items-center gap-2.5"
           >
-            PASS ✕
+            <span>PASS</span>
+            <svg viewBox="0 0 24 24" className="w-6 h-6 stroke-[#c8102e] stroke-[4] fill-none shrink-0">
+              <line x1="18" y1="6" x2="6" y2="18" strokeLinecap="round" />
+              <line x1="6" y1="6" x2="18" y2="18" strokeLinecap="round" />
+            </svg>
           </motion.div>
         </>
       )}
