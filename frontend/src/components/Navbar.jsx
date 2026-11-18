@@ -13,17 +13,14 @@ export default function Navbar({
       className="w-full bg-white border-b-2 border-coy-ink px-4 sm:px-6 lg:px-8 py-4 sm:py-5 select-none transition-all shadow-sm"
     >
       <div className="max-w-5xl mx-auto flex items-center justify-between gap-4">
-        {/* Wordmark Logo - Bigger, Accessible, High Impact */}
+        {/* Wordmark Logo - Clean coy. only (No badge beside logo) */}
         <button
           onClick={() => setActiveTab && setActiveTab('discover')}
-          className="flex items-center gap-2.5 cursor-pointer text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coy-pink focus-visible:ring-offset-2 rounded-xl p-1 -m-1 transition-transform active:scale-95"
+          className="flex items-center cursor-pointer text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coy-pink focus-visible:ring-offset-2 rounded-xl p-1 -m-1 transition-transform active:scale-95"
           aria-label="Coy Home - Navigate to Discover Deck"
         >
           <span className="font-heading font-extrabold text-3xl sm:text-4xl tracking-tight text-coy-ink flex items-baseline leading-none">
             coy<span className="text-coy-pink text-4xl sm:text-5xl leading-none">.</span>
-          </span>
-          <span className="neo-badge bg-coy-pink-tint text-coy-pink text-xs sm:text-sm py-1 px-2.5 sm:px-3 font-bold uppercase tracking-wider shadow-hard-sm">
-            Discover
           </span>
         </button>
 
