@@ -183,19 +183,6 @@ export default function HomeTab({ onSwitchToDiscover, onOpenUpsell }) {
               <ArrowRight className="w-4 h-4 stroke-[2.5]" />
             </button>
           </div>
-
-          {/* Privacy Edge Cases Box */}
-          <div className="p-4 sm:p-5 rounded-2xl bg-white border-2 border-coy-ink shadow-hard-sm text-xs text-zinc-600">
-            <div className="flex items-center gap-1.5 font-heading font-bold text-coy-ink text-sm mb-1.5">
-              <Shield className="w-4 h-4 text-[#00c853]" />
-              <span>Privacy & DPDP Act 2023 Guarantees</span>
-            </div>
-            <ul className="list-disc list-inside space-y-1 text-[11px] text-zinc-500">
-              <li>Never reveal who has liked you unless it is mutual</li>
-              <li>Encrypted salted SHA-256 hash storage for all identifiers</li>
-              <li>Universal opt-out killswitch enabled at <span className="font-mono">getcoy.com/stop</span></li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
