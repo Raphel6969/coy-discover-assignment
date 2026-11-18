@@ -1,0 +1,482 @@
+[
+  {
+    "id": "p1",
+    "name": "Ananya Sharma",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Will definitely judge your coffee order. Surviving on iced Americano and existential dread in Indiranagar.",
+    "college": "Christ University, Bangalore",
+    "city": "Bengaluru",
+    "circle": "Campus",
+    "interests": ["Filter Coffee", "Indie Gigs", "Thrift Shopping", "Analog Film"],
+    "prompt": {
+      "question": "My ideal Sunday in Bangalore",
+      "answer": "Third Wave Coffee at 8 AM before the influencers wake up, then roaming Blossom Book House."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p2",
+    "name": "Kabir Mehta",
+    "age": 23,
+    "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Building an AI startup by day, pretending I know how to DJ by night. Tell me your favorite Spotify playlist.",
+    "college": "BITS Pilani '23",
+    "city": "Bengaluru",
+    "circle": "Work / Tech",
+    "interests": ["F1 Racing", "Startups", "House Music", "Badminton"],
+    "prompt": {
+      "question": "The quickest way to my heart",
+      "answer": "Sending me the unreleased Fred Again ID or debugging my prod script without complaining."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p3",
+    "name": "Tanvi Deshmukh",
+    "age": 21,
+    "photo": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Economics major with a severe chronic obsession with Mumbai sunsets and Marine Drive walks.",
+    "college": "St. Xavier's College, Mumbai",
+    "city": "Mumbai",
+    "circle": "Campus",
+    "interests": ["Marine Drive", "Graphic Novels", "Pastry Baking", "Coldplay"],
+    "prompt": {
+      "question": "A non-negotiable for me",
+      "answer": "You must understand that Bombay rains are poetic only if you don't have to catch a local train from Dadar."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p4",
+    "name": "Rohan Verma",
+    "age": 24,
+    "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Consultant by weekday, mediocre weekend chef. Can make a killer butter chicken or garlic butter pasta.",
+    "college": "SRCC, Delhi University",
+    "city": "Delhi NCR",
+    "circle": "Work / Tech",
+    "interests": ["Cooking", "Tennis", "Standup Comedy", "Podcasts"],
+    "prompt": {
+      "question": "My most controversial opinion",
+      "answer": "Delhi street food beats Bangalore brunch culture any day of the week."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p5",
+    "name": "Sneha Kulkarni",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Design nerd who collects vinyls and overthinks font pairings. Yes, Comic Sans gives me physical chills.",
+    "college": "NID Ahmedabad",
+    "city": "Bengaluru",
+    "circle": "Social",
+    "interests": ["UI/UX Design", "Vinyl Records", "Pottery", "Matcha"],
+    "prompt": {
+      "question": "My Roman Empire",
+      "answer": "Why Coy didn't exist during our college farewell week when everyone was too shy to confess."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p6",
+    "name": "Aarav Nambiar",
+    "age": 23,
+    "photo": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Software engineer who touches grass on weekends by bouldering and hiking Western Ghats.",
+    "college": "IIT Bombay '23",
+    "city": "Bengaluru",
+    "circle": "Work / Tech",
+    "interests": ["Bouldering", "Trekking", "Open Source", "Specialty Coffee"],
+    "prompt": {
+      "question": "Two truths and a lie",
+      "answer": "Climbed Kudremukh in torrential rain, ran a half marathon, never had a sip of filter kaapi."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p7",
+    "name": "Rhea Kapoor",
+    "age": 21,
+    "photo": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Literature grad who reads Murakami on the metro and takes blurry photos of street cats.",
+    "college": "Lady Shri Ram College, DU",
+    "city": "Delhi NCR",
+    "circle": "Campus",
+    "interests": ["Modern Poetry", "Cat Rescues", "Cinema", "Museum Hops"],
+    "prompt": {
+      "question": "Let's debate",
+      "answer": "Whether coffee dates are actually first dates or just informal corporate interviews."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p8",
+    "name": "Siddharth Rao",
+    "age": 24,
+    "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Fintech product manager trying to balance sprint cycles with my passion for weekend board game cafes.",
+    "college": "NMIMS Mumbai",
+    "city": "Mumbai",
+    "circle": "Work / Tech",
+    "interests": ["Catan", "Fintech", "Scuba Diving", "Craft Beer"],
+    "prompt": {
+      "question": "I get way too excited about",
+      "answer": "Trading wheat for ore on turn 4 in Catan and catching red-eye flights to Goa."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p9",
+    "name": "Ishita Sen",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Media researcher from Kolkata living in Pune. I have 43 saved reels of recipes I will never make.",
+    "college": "Symbiosis Institute of Media, Pune",
+    "city": "Pune",
+    "circle": "Campus",
+    "interests": ["Cinema", "Street Photography", "Reels", "Bengali Sweets"],
+    "prompt": {
+      "question": "Best life hack",
+      "answer": "Putting your phone on airplane mode during college lectures to pretend the network is down."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p10",
+    "name": "Devansh Singhania",
+    "age": 23,
+    "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Ex-founder, current corporate soldier. I will make you chai so good you'll delete Starbucks forever.",
+    "college": "Ashoka University",
+    "city": "Delhi NCR",
+    "circle": "Work / Tech",
+    "interests": ["Adrak Chai", "Guitar", "Formula 1", "Night Drives"],
+    "prompt": {
+      "question": "I'll know we click if",
+      "answer": "You can scream the lyrics to Prateek Kuhad and Arctic Monkeys with equal energy."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p11",
+    "name": "Tara Roy",
+    "age": 20,
+    "photo": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Psychology major. Yes, I am analyzing your Spotify blend right now. 90s Bollywood enthusiast.",
+    "college": "Miranda House, DU",
+    "city": "Delhi NCR",
+    "circle": "Campus",
+    "interests": ["Psychology", "Shah Rukh Khan", "Baking", "Karaoke"],
+    "prompt": {
+      "question": "My hidden talent",
+      "answer": "Reciting every dialogue from Om Shanti Om with dramatic background music."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p12",
+    "name": "Varun Reddy",
+    "age": 25,
+    "photo": "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Hyderabad born, Bangalore settled. If biryani doesn't have double masala, we can't be friends.",
+    "college": "IIIT Hyderabad",
+    "city": "Hyderabad",
+    "circle": "Social",
+    "interests": ["Dum Biryani", "Basketball", "Crypto", "Roadtrips"],
+    "prompt": {
+      "question": "A hill I will die on",
+      "answer": "Hyderabadi biryani is a love language, not just food."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p13",
+    "name": "Meera Iyer",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Carnatic classical singer who secretly listens to techno on the commute to office.",
+    "college": "Stella Maris College, Chennai",
+    "city": "Bengaluru",
+    "circle": "Campus",
+    "interests": ["Carnatic Vocals", "Electronic Music", "Dosa Trails", "Saree Draping"],
+    "prompt": {
+      "question": "My favorite weekend ritual",
+      "answer": "Crispy masala dosa at Vidyarthi Bhavan followed by walking through Gandhi Bazaar."
+    },
+    "hasLikedUser": true
+  },
+  {
+    "id": "p14",
+    "name": "Nikhil Agarwal",
+    "age": 24,
+    "photo": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Venture capital analyst. I evaluate pitches all day, but still haven't figured out my own bio pitch.",
+    "college": "IIT Delhi",
+    "city": "Bengaluru",
+    "circle": "Work / Tech",
+    "interests": ["VC Tech", "Squash", "Whiskey Tasting", "Sci-Fi Books"],
+    "prompt": {
+      "question": "Teach me something about",
+      "answer": "Your niche obsession that has nothing to do with startups or software."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p15",
+    "name": "Pooja Hegde",
+    "age": 21,
+    "photo": "https://images.unsplash.com/photo-1524502397800-2eeaad7c3fe5?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Architecture student carrying a 3-foot drafting board around town. Sleep is a distant memory.",
+    "college": "BMS College of Engineering, Bangalore",
+    "city": "Bengaluru",
+    "circle": "Campus",
+    "interests": ["Architecture", "Heritage Walks", "Sketching", "Matcha Latte"],
+    "prompt": {
+      "question": "You should leave a message if",
+      "answer": "You know where to find the quietest rooftop in Koramangala with good coffee."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p16",
+    "name": "Aditya Chopra",
+    "age": 23,
+    "photo": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Copywriter by trade. Words are my playground, memes are my emotional support system.",
+    "college": "MICA Ahmedabad",
+    "city": "Mumbai",
+    "circle": "Work / Tech",
+    "interests": ["Copywriting", "Vintage Posters", "Cricket", "Jazz"],
+    "prompt": {
+      "question": "Worst trend right now",
+      "answer": "Posting LinkedIn life lessons about eating a banana at 6 AM."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p17",
+    "name": "Zoya Akhtar",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Fashion communications student. Half my closet is thrifted and the other half is borrowed from friends.",
+    "college": "NIFT Delhi",
+    "city": "Delhi NCR",
+    "circle": "Campus",
+    "interests": ["Street Style", "Editorial Shoots", "K-Dramas", "Sushi"],
+    "prompt": {
+      "question": "The secret to my happiness",
+      "answer": "Finding a vintage jacket in Sarojini Nagar that fits like bespoke couture."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p18",
+    "name": "Karan Malhotra",
+    "age": 24,
+    "photo": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Fitness coach and nutrition enthusiast who will definitely drag you to a 7 AM functional training session.",
+    "college": "Pune University",
+    "city": "Pune",
+    "circle": "Social",
+    "interests": ["Calisthenics", "Protein Pancakes", "Marathons", "House Plants"],
+    "prompt": {
+      "question": "A personal rule I follow",
+      "answer": "Never skip leg day, and never ghost someone after matching on Coy."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p19",
+    "name": "Dia Mirchandani",
+    "age": 23,
+    "photo": "https://images.unsplash.com/photo-1534751516642-a171ed2820d9?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Brand strategist. I know all the best speakeasies in Bandra and the worst places to take a first date.",
+    "college": "Jai Hind College, Mumbai",
+    "city": "Mumbai",
+    "circle": "Work / Tech",
+    "interests": ["Cocktail Mixology", "Standup Comedy", "Dogs", "Bandra Cafés"],
+    "prompt": {
+      "question": "My biggest green flag",
+      "answer": "I have an emergency playlist for every possible mood swing."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p20",
+    "name": "Manish Patel",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Mechanical engineering final year. Currently turning a 2012 Royal Enfield into a custom scrambler.",
+    "college": "COEP Pune",
+    "city": "Pune",
+    "circle": "Campus",
+    "interests": ["Motorcycles", "3D Printing", "Rock Climbing", "Classic Rock"],
+    "prompt": {
+      "question": "Together we could",
+      "answer": "Ride out to Lonavala at 5 AM for hot chai and maska bun."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p21",
+    "name": "Trisha Banerji",
+    "age": 21,
+    "photo": "https://images.unsplash.com/photo-1546961329-78bef0414d7c?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Journalism student chasing stories and finding stray dogs to pet. Chai over coffee, forever and always.",
+    "college": "Jadavpur University",
+    "city": "Bengaluru",
+    "circle": "Campus",
+    "interests": ["Investigative Pods", "Street Food", "Watercolors", "Chai"],
+    "prompt": {
+      "question": "Something I'm unhealthily good at",
+      "answer": "Finding the Instagram handle of that one person we saw at the café in 2 minutes flat."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p22",
+    "name": "Samarth Joshi",
+    "age": 25,
+    "photo": "https://images.unsplash.com/photo-1496345875659-11f7dd282d1d?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Data scientist who looks at scatter plots all week and plays acoustic guitar at open mics on Fridays.",
+    "college": "PES University, Bangalore",
+    "city": "Bengaluru",
+    "circle": "Work / Tech",
+    "interests": ["Guitar", "Machine Learning", "Origami", "Filter Kaapi"],
+    "prompt": {
+      "question": "A life goal of mine",
+      "answer": "Open an indie café where people play chess and leave handwritten notes in books."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p23",
+    "name": "Avani Nair",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Biotech grad student. Will nerd out about genetics, then immediately ask you what your sun sign is.",
+    "college": "Mount Carmel College, Bangalore",
+    "city": "Bengaluru",
+    "circle": "Campus",
+    "interests": ["Astrology", "Molecular Biology", "Thrifting", "Baking"],
+    "prompt": {
+      "question": "Don't hate me if",
+      "answer": "I ask for your birth time within the first 10 minutes of conversation."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p24",
+    "name": "Kushagra Saxena",
+    "age": 24,
+    "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "UI motion designer. I obsess over 200ms easing curves. Trying to learn how to play padel tennis.",
+    "college": "NIFT Mumbai",
+    "city": "Mumbai",
+    "circle": "Work / Tech",
+    "interests": ["Padel", "Motion Design", "Japanese Cinema", "Craft Beer"],
+    "prompt": {
+      "question": "Favorite conversation topic",
+      "answer": "Why 60fps feels better than 30fps and why Wes Anderson films are peak aesthetics."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p25",
+    "name": "Lavanya Bhatia",
+    "age": 20,
+    "photo": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Literature and theater nerd. If you can quote Fleabag season 2 monologue, I will propose on the spot.",
+    "college": "Hansraj College, DU",
+    "city": "Delhi NCR",
+    "circle": "Campus",
+    "interests": ["Theater", "Fleabag", "Secondhand Books", "Tacos"],
+    "prompt": {
+      "question": "My Roman Empire is",
+      "answer": "The hot priest scene in Fleabag and why love is supposed to be awful, painful, and terrifying."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p26",
+    "name": "Armaan Siddiqui",
+    "age": 23,
+    "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Sound designer and music producer. Spending my youth finding the perfect snare sample in Ableton.",
+    "college": "Whistling Woods International",
+    "city": "Mumbai",
+    "circle": "Social",
+    "interests": ["Music Production", "Synths", "Night Drives", "Pizza"],
+    "prompt": {
+      "question": "What I'm listening to right now",
+      "answer": "A playlist of late-night synthwave and old RD Burman tracks mixed together."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p27",
+    "name": "Sanya Chopra",
+    "age": 22,
+    "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Law student who can argue both sides of why pineapple on pizza is an international human rights violation.",
+    "college": "NLSIU Bangalore",
+    "city": "Bengaluru",
+    "circle": "Campus",
+    "interests": ["Moot Court", "True Crime", "Espresso", "Pilates"],
+    "prompt": {
+      "question": "I will instantly like you if",
+      "answer": "You can keep up in a fast-paced debate without taking it personally."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p28",
+    "name": "Pranav Menon",
+    "age": 24,
+    "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Frontend engineer with a passion for clean UI. Proud plant dad to 11 indoor monsteras and succulents.",
+    "college": "NIT Calicut",
+    "city": "Bengaluru",
+    "circle": "Work / Tech",
+    "interests": ["Plants", "React", "Board Games", "Kerala Sadya"],
+    "prompt": {
+      "question": "My proudest flex",
+      "answer": "Keeping a delicate Calathea plant alive through a three-month Bangalore winter."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p29",
+    "name": "Kavya Singhal",
+    "age": 21,
+    "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Liberal arts student who takes ceramic pottery way too seriously. Let's make ugly mugs together.",
+    "college": "Ashoka University",
+    "city": "Delhi NCR",
+    "circle": "Campus",
+    "interests": ["Ceramics", "Dark Chocolate", "Indie Pop", "Film Festivals"],
+    "prompt": {
+      "question": "My ideal date",
+      "answer": "Pottery studio workshop where we laugh at our lopsided clay creations, then grab gelato."
+    },
+    "hasLikedUser": false
+  },
+  {
+    "id": "p30",
+    "name": "Dhruv Goswami",
+    "age": 23,
+    "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&auto=format&fit=crop&q=80",
+    "shortBio": "Product designer living between Bandra and HSR. Big believer in handwritten postcards and physical books.",
+    "college": "Symbiosis Institute of Design",
+    "city": "Mumbai",
+    "circle": "Work / Tech",
+    "interests": ["Typography", "Postcards", "Cycling", "Coffee Brewing"],
+    "prompt": {
+      "question": "Best thing about Coy",
+      "answer": "Finding out your secret crush felt the exact same way without having to die of embarrassment."
+    },
+    "hasLikedUser": false
+  }
+]
