@@ -9,19 +9,13 @@
 
 ---
 
-## 📌 Repository & Deliverables Summary
+## 📌 Overview
 
-This repository contains the complete submission for the **Coy SDE Intern Assignment**:
-
-1. **Part A (Product Strategy, Innovations & Security Audit)**:
-   * See [idea.md](./idea.md) and [PART_A_SUBMISSION.md](./PART_A_SUBMISSION.md) for the comprehensive teardown:
-     * **Feature 1**: The *Admirer Funnel Bridge* (solving the 53-admirers vs. 3-slots drop-off cliff with dynamic onboarding bonus slots and contextual in-funnel monetization).
-     * **Feature 2**: *Sender-Chosen Circle Categorization* (Campus, Work, Social) with $k$-anonymity protection ($k \ge 3$).
-     * **Security Audit**: Secondary identifier hijacking vulnerability fix (mandating OTP verification on all added contact methods in Settings) and delta timing correlation attack defense.
-2. **Part B (Discover Tab Application)**:
-   * Standalone full-stack application built with React, Vite, Express, and Tailwind CSS.
-   * Responsive across mobile (375px/390px/428px), tablets, and desktop/laptop screens.
-   * 1:1 fidelity to Coy's neo-brutalist pop aesthetic (`#ff2d78` electric pink, 2px solid black borders, 0-blur drop shadows, Bricolage Grotesque & Plus Jakarta Sans typography, and classic plain hearts).
+This repository contains the standalone, mobile-responsive **"Discover"** tab application built alongside Coy's existing experience:
+* Standalone full-stack application built with React, Vite, Express, and Tailwind CSS.
+* Fluidly responsive across mobile viewports (375px/390px/428px), tablets, and desktop/laptop screens.
+* 1:1 fidelity to Coy's neo-brutalist pop aesthetic (`#ff2d78` electric pink, 2px solid black borders, 0-blur drop shadows, Bricolage Grotesque & Plus Jakarta Sans typography, and classic plain hearts).
+* Strict double-blind privacy guarantee: client network payloads never reveal pre-seeded likes.
 
 ---
 
@@ -29,7 +23,6 @@ This repository contains the complete submission for the **Coy SDE Intern Assign
 
 | Requirement | Spec Details | Status | Implementation Details |
 | :--- | :--- | :--- | :--- |
-| **Part A: Suggest Two Core Features** | Propose 2 features with deep rationale on why they are required. | ✅ **Fulfilled** | Fully detailed in [idea.md](./idea.md) with retention math, user journeys, and DPDP Act privacy safeguards. |
 | **Frontend Framework** | React.js or Next.js, mobile-first & responsive. | ✅ **Fulfilled** | Built with **React 18 + Vite + Tailwind CSS**. Fluidly responsive across mobile viewports, tablets, and desktop screens. |
 | **Backend Framework** | Node.js with Express or Next.js API routes. | ✅ **Fulfilled** | **Express.js** REST API with structured endpoints (`/feed`, `/swipe`, `/matches`, `/undo`, `/reset`, `/stats`). |
 | **Data Persistence** | JSON, SQLite, or DB. Assume single logged-in user. | ✅ **Fulfilled** | File-backed atomic JSON store (`profiles.json` + `user_state.json`) persisting state across page reloads. |
@@ -58,7 +51,7 @@ This repository contains the complete submission for the **Coy SDE Intern Assign
 3. **⌨️ Desktop Keyboard Controls**:
    * Evaluators testing on laptop/desktop can use `<kbd>←</kbd>` to pass, `<kbd>→</kbd>` to like, and `<kbd>Ctrl+Z</kbd>` to undo.
 4. **🏷️ Circle Affiliation Filter Chips**:
-   * Interactive filter chips (`All`, `🎓 Campus`, `💼 Work / Tech`, `☕ Social`) directly illustrating the Part A circle feature.
+   * Interactive filter chips (`All`, `🎓 Campus`, `💼 Work / Tech`, `☕ Social`) allowing users to easily filter their feed by social circle.
 5. **🛠️ Reviewer Demo Bar**:
    * Discreet top bar for interviewers displaying live remaining count, swiped count, mutual matches count, and a 1-click **"Reset Feed"** button.
 6. **💬 Direct WhatsApp Icebreaker Launcher**:
