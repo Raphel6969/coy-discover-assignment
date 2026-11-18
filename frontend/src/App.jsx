@@ -74,7 +74,7 @@ export default function App() {
       />
 
       {/* Main Responsive Content Area (Fluid for Mobile, Tablet, Laptop, Desktop) */}
-      <main className="w-full max-w-5xl mx-auto flex-1 flex flex-col relative px-4 sm:px-6 lg:px-8 py-3 pb-24 md:pb-12">
+      <main className="w-full max-w-5xl mx-auto flex-1 flex flex-col relative px-4 sm:px-6 lg:px-8 py-2 pb-16 md:pb-8">
         {/* TAB 1: HOME TAB (Blank placeholder per assignment spec) */}
         {activeTab === 'home' && (
           <HomeTab
