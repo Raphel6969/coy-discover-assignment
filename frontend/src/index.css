@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #faf8f5;
+    color: #18181b;
+  }
+}
+
+@layer components {
+  /* Tactile Neo-Brutalist Push Button */
+  .neo-btn {
+    @apply border-2 border-coy-ink bg-white font-heading font-bold transition-all duration-150 select-none;
+    box-shadow: 4px 4px 0px #18181b;
+  }
+
+  .neo-btn:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 5px 5px 0px #18181b;
+  }
+
+  .neo-btn:active {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0px #18181b;
+  }
+
+  .neo-btn-primary {
+    @apply neo-btn bg-coy-pink text-white;
+  }
+
+  .neo-btn-primary:hover {
+    @apply bg-coy-pink-hover;
+  }
+
+  /* Neo-Brutalist Card */
+  .neo-card {
+    @apply border-2 border-coy-ink bg-white rounded-2xl;
+    box-shadow: 6px 6px 0px #18181b;
+  }
+
+  /* Neo-Brutalist Badge */
+  .neo-badge {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 text-xs font-mono font-semibold border-2 border-coy-ink rounded-full;
+    box-shadow: 2px 2px 0px #18181b;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #18181b;
+  border-radius: 9999px;
+}
