@@ -11,7 +11,7 @@ export default {
           pink: '#ff2d78',
           'pink-hover': '#e0246a',
           ink: '#18181b',
-          canvas: '#faf8f5',
+          canvas: '#ffffff',
           surface: '#ffffff',
           subtle: '#f4f4f5',
           'muted-dark': '#52525b',
