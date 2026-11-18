@@ -84,9 +84,11 @@ export default function MatchModal({ match, onClose, onGoToMatches }) {
             />
           </div>
 
-          {/* Central Pulsing Heart Badge */}
-          <div className="absolute z-20 w-10 h-10 rounded-full bg-coy-pink text-white border-2 border-coy-ink flex items-center justify-center shadow-hard animate-bounce">
-            <Heart className="w-5 h-5 fill-current stroke-[2]" />
+          {/* Central Pulsing Heart Badge with Simple Plain Heart */}
+          <div className="absolute z-20 w-11 h-11 rounded-full bg-coy-pink text-white border-2 border-coy-ink flex items-center justify-center shadow-hard animate-bounce">
+            <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current stroke-none">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+            </svg>
           </div>
 
           {/* Matched Profile's Avatar */}
@@ -100,11 +102,11 @@ export default function MatchModal({ match, onClose, onGoToMatches }) {
         </div>
 
         {/* Match Details Pill */}
-        <div className="bg-white p-3 rounded-xl border-2 border-coy-ink shadow-hard-sm mb-5 text-left">
+        <div className="bg-white p-3.5 rounded-xl border-2 border-coy-ink shadow-hard-sm mb-5 text-left">
           <div className="font-heading font-bold text-sm text-coy-ink flex items-center justify-between">
             <span>{match.name}, {match.age}</span>
-            <span className="neo-badge bg-coy-green-tint text-coy-green-dark border-coy-ink text-[10px] py-0.5">
-              ✓ Mutual
+            <span className="neo-badge bg-[#00e676]/20 text-[#00c853] border-coy-ink text-[10px] py-0.5 px-2 font-bold">
+              ✓ Mutual Match
             </span>
           </div>
           <div className="text-xs text-zinc-500 font-medium truncate mt-0.5">

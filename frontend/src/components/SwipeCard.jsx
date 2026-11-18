@@ -45,18 +45,18 @@ export default function SwipeCard({ profile, onSwipe, isFront }) {
       {/* Dynamic Stamp Overlays */}
       {isFront && (
         <>
-          {/* LIKE STAMP (GREEN) */}
+          {/* LIKE STAMP (VIBRANT NEON GREEN) */}
           <motion.div
             style={{ opacity: likeOpacity, scale: likeScale }}
-            className="absolute top-8 left-6 z-30 pointer-events-none transform -rotate-12 border-4 border-coy-green bg-coy-green/10 text-coy-green font-heading font-extrabold text-3xl px-4 py-1 rounded-xl shadow-hard-sm"
+            className="absolute top-8 left-6 z-30 pointer-events-none transform -rotate-12 border-[3.5px] border-[#00e676] bg-[#00e676]/15 text-[#00c853] font-heading font-extrabold text-3xl px-4 py-1.5 rounded-xl shadow-hard tracking-wide"
           >
             LIKE 💚
           </motion.div>
 
-          {/* NOPE STAMP (HOT PINK) */}
+          {/* PASS STAMP (VIBRANT ELECTRIC CRIMSON) */}
           <motion.div
             style={{ opacity: nopeOpacity, scale: nopeScale }}
-            className="absolute top-8 right-6 z-30 pointer-events-none transform rotate-12 border-4 border-coy-pink bg-coy-pink/10 text-coy-pink font-heading font-extrabold text-3xl px-4 py-1 rounded-xl shadow-hard-sm"
+            className="absolute top-8 right-6 z-30 pointer-events-none transform rotate-12 border-[3.5px] border-[#ff2d55] bg-[#ff2d55]/15 text-[#ff2d55] font-heading font-extrabold text-3xl px-4 py-1.5 rounded-xl shadow-hard tracking-wide"
           >
             PASS ✕
           </motion.div>

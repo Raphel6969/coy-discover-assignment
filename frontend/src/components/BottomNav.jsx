@@ -9,7 +9,7 @@ export default function BottomNav({ activeTab, setActiveTab, matchCount = 0 }) {
   ];
 
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t-2 border-coy-ink py-2 px-6 z-40 select-none pb-[calc(0.5rem+env(safe-area-inset-bottom))]">
+    <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t-2 border-coy-ink py-2 px-6 z-40 select-none pb-[calc(0.5rem+env(safe-area-inset-bottom))]">
       <div className="max-w-md mx-auto flex items-center justify-around">
         {tabs.map((tab) => {
           const Icon = tab.icon;
@@ -34,7 +34,7 @@ export default function BottomNav({ activeTab, setActiveTab, matchCount = 0 }) {
               >
                 <Icon className={`w-5 h-5 ${isActive ? 'stroke-[2.5]' : 'stroke-2'}`} />
                 {tab.badge && (
-                  <span className="absolute -top-1.5 -right-2 bg-coy-green text-white text-[10px] font-mono font-bold w-4 h-4 rounded-full border border-coy-ink flex items-center justify-center animate-pulse">
+                  <span className="absolute -top-1.5 -right-2 bg-[#00e676] text-coy-ink text-[10px] font-mono font-bold w-4 h-4 rounded-full border border-coy-ink flex items-center justify-center animate-pulse">
                     {tab.badge}
                   </span>
                 )}
